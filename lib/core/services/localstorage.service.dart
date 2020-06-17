@@ -51,7 +51,7 @@ class LocalStorageService {
     }
   }
 
-  void _removeFromDisk(String key) {
+  void removeFromDisk(String key) {
     _preferences.remove(key);
   }
 

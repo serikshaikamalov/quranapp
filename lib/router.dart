@@ -4,7 +4,7 @@ import 'package:quranapp/features/quran/presentations/pages/quran-sura-list.page
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
-    final arguments = settings.arguments;
+    // final arguments = settings.arguments;
 
     switch (settings.name) {
       // Home page
